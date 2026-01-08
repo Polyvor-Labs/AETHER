@@ -26,7 +26,7 @@ The final output layer implements **Online Hebbian Learning** (*"Cells that fire
 * **Update Rule:** $\Delta W_{fast} = \eta \cdot (y_{out} \otimes x_{in})$
 
 ### 3. Adaptive Computation (The Logic)
-Includes an experimental **Router** mechanism ($R(x)$) within each layer.
+Includes an experimental **Router** mechanism R(x) within each layer.
 * **Function:** Determines the "thinking intensity" for each token. In future iterations, this will allow the model to dynamically exit early for simple tokens (saving compute) or ponder longer for complex queries.
 
 ---
