@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Model Weights & Data (Too large for git)
+*.pth
+*.pkl
+
+# Environment
+.env
+venv/
